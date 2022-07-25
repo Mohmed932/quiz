@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.Question-Card{
+  margin: 0 auto;
+  width: 50%; 
+  height: auto;
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin:50px;
+  cursor:pointer;
+  padding: 16px;
+  border: 3px solid white;
+  border-radius: 20px;
+  font-size: 20px;
+  border:1px solid red;
+  color:red;
+  transition:.5s
+}
+li:hover{
+  background:red;
+  color:#fff;
+}
+
+.Question-text,.title {
+  color: red;
+  font-size: 24px;
+}
+.final-result {
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+  margin-top: 64px;
+  color:red;
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.final-result h1,h2{
+  color:red;
+  padding:10px
+}
+
+button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  cursor:pointer;
+  border-radius: 24px;
+}
+@media (max-width:800px) {
+  .Question-Card{
+    width: 90%;
+  }
+}
